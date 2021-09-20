@@ -1,0 +1,16 @@
+C:\code\aprendizado\csharp\exemplos\calculadora\obj\Debug\net5.0\calculadora.csproj.AssemblyReference.cache
+C:\code\aprendizado\csharp\exemplos\calculadora\obj\Debug\net5.0\calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\code\aprendizado\csharp\exemplos\calculadora\obj\Debug\net5.0\calculadora.AssemblyInfoInputs.cache
+C:\code\aprendizado\csharp\exemplos\calculadora\obj\Debug\net5.0\calculadora.AssemblyInfo.cs
+C:\code\aprendizado\csharp\exemplos\calculadora\obj\Debug\net5.0\calculadora.csproj.CoreCompileInputs.cache
+C:\code\aprendizado\csharp\exemplos\calculadora\obj\Debug\net5.0\calculadora.dll
+C:\code\aprendizado\csharp\exemplos\calculadora\obj\Debug\net5.0\ref\calculadora.dll
+C:\code\aprendizado\csharp\exemplos\calculadora\obj\Debug\net5.0\calculadora.pdb
+C:\code\aprendizado\csharp\exemplos\calculadora\bin\Debug\net5.0\calculadora.exe
+C:\code\aprendizado\csharp\exemplos\calculadora\bin\Debug\net5.0\calculadora.deps.json
+C:\code\aprendizado\csharp\exemplos\calculadora\bin\Debug\net5.0\calculadora.runtimeconfig.json
+C:\code\aprendizado\csharp\exemplos\calculadora\bin\Debug\net5.0\calculadora.runtimeconfig.dev.json
+C:\code\aprendizado\csharp\exemplos\calculadora\bin\Debug\net5.0\calculadora.dll
+C:\code\aprendizado\csharp\exemplos\calculadora\bin\Debug\net5.0\ref\calculadora.dll
+C:\code\aprendizado\csharp\exemplos\calculadora\bin\Debug\net5.0\calculadora.pdb
+C:\code\aprendizado\csharp\exemplos\calculadora\obj\Debug\net5.0\calculadora.genruntimeconfig.cache
