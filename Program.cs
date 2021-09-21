@@ -456,7 +456,6 @@ _________________________________________________|funções de navegação|_____
             Console.WriteLine("(2) Volume de um paralelepipedo.");
             Console.WriteLine("(3) Volume de um cilindro.");
             Console.WriteLine("(4) Volume de um cone.");
-            Console.WriteLine("(5) Volume de uma piramide.");
             Console.WriteLine("______________________________________");
             var indicador = int.Parse(Console.ReadLine());
 
@@ -507,12 +506,6 @@ _________________________________________________|funções de navegação|_____
                 Console.WriteLine("Digite a medida da altura do cone:");
                 var num2 = double.Parse(Console.ReadLine());
                 Program.VolumeCone(num1, num2);
-
-            }else if(indicador == 5){
-
-                Console.WriteLine("Esta funcionalidade está temporariamente desativada.");
-                Console.ReadLine();
-                Program.MenuVolumeDosPoligonos();
 
             }else{
 
@@ -938,24 +931,6 @@ _________________________________________|funções de operações|_____________
             Program.MenuVolumeDosPoligonos();
 
         }
-
-/*
-        função pausada pq falta um método para representar frações dentro da função
-
-        a formula é: V = 1/3 * area da base (area =  base * altura) * altura
-
-
-        static void VolumePiramide(double _base_, double _altura_, double _Altura_){
-
-            double _areaBase_ = _base_ * _altura_;
-
-            double resultado = ();
-
-            Console.WriteLine($" O resultado é: {resultado}.");
-
-        }
-
-*/
 
 
         static void PegarValorSeno(double _angulo_){
