@@ -523,7 +523,7 @@ _________________________________________________|funções de navegação|_____
         }
 
         static void MenuTrigonometria(){
-
+            Console.Clear();
             Console.WriteLine("_______________|Trigonometria|_______________");
             Console.WriteLine(" ");
             Console.WriteLine(" ");
@@ -535,16 +535,16 @@ _________________________________________________|funções de navegação|_____
             Console.WriteLine("(3) Tangente.");
             Console.WriteLine("(4) Teorema de Pitágoras");
             Console.WriteLine("(5) Area de um triângulo");
-            Console.WriteLine("(6) Função seno");
-            Console.WriteLine("(7) Função consseno");
-            Console.WriteLine("(8) Função tangente");
             var indicador = int.Parse(Console.ReadLine());
 
         
             if(indicador == 0){
+
                 Program.MenuPrincipal();
+            
             }else if(indicador == 1){
-                
+
+                Console.Clear();
                 Console.WriteLine("_______________|Determinar seno|_______________");
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
@@ -554,6 +554,7 @@ _________________________________________________|funções de navegação|_____
 
             }else if(indicador == 2){
 
+                Console.Clear();
                 Console.WriteLine("_______________|Determinar cosseno|_______________");
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
@@ -563,6 +564,7 @@ _________________________________________________|funções de navegação|_____
 
             }else if(indicador == 3){
 
+                Console.Clear();
                 Console.WriteLine("_______________|Determinar tangente|_______________");
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
@@ -572,6 +574,7 @@ _________________________________________________|funções de navegação|_____
 
             }else if(indicador == 4){
 
+                Console.Clear();
                 Console.WriteLine("_______________|Teorema de pitágoras|_______________");
                 Console.WriteLine(" ");
                 Console.WriteLine(" ");
@@ -583,15 +586,13 @@ _________________________________________________|funções de navegação|_____
                 Program.TeoremaPitagoras(i);
 
             }else if(indicador == 5){
-
-            }else if(indicador == 6){
-
-            }else if(indicador == 7){
-
-            }else if(indicador == 8){
+                
+                Program.MenuAreaDosPoligonosSubTriangulos();
 
             }else{
+
                 Program.MenuPrincipal();
+            
             }
         }
 
@@ -966,7 +967,7 @@ _________________________________________|funções de operações|_____________
             Console.WriteLine($" O resultado é : {resultado}.");
             Console.ResetColor();
             Console.ReadLine();
-            Program.MenuVolumeDosPoligonos();
+            Program.MenuTrigonometria();
 
         }
 
@@ -979,7 +980,7 @@ _________________________________________|funções de operações|_____________
             Console.WriteLine($" O resultado é : {resultado}.");
             Console.ResetColor();
             Console.ReadLine();
-            Program.MenuVolumeDosPoligonos();
+            Program.MenuTrigonometria();
 
         }
 
@@ -992,7 +993,7 @@ _________________________________________|funções de operações|_____________
             Console.WriteLine($" O resultado é : {resultado}.");
             Console.ResetColor();
             Console.ReadLine();
-            Program.MenuVolumeDosPoligonos();
+            Program.MenuTrigonometria();
 
         }
 
@@ -1016,7 +1017,7 @@ _________________________________________|funções de operações|_____________
                 Console.WriteLine($" O valor da hipotenusa é : {resultado}.");
                 Console.ResetColor();
                 Console.ReadLine();
-                Program.MenuVolumeDosPoligonos();
+                Program.MenuTrigonometria();
 
             }else if(_parteFaltando_ == 2){
                 //neste caso, a parte faltando é um cateto.
@@ -1032,7 +1033,7 @@ _________________________________________|funções de operações|_____________
                 Console.WriteLine($" O valor do cateto é : {resultado}.");
                 Console.ResetColor();
                 Console.ReadLine();
-                Program.MenuVolumeDosPoligonos();
+                Program.MenuTrigonometria();
 
             }else{
 
